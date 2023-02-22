@@ -1,0 +1,45 @@
+.ld-button.btn-primary {
+    background: #204D99;
+    border: 0;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    min-width: 75px;
+    min-height: 40px;
+    padding: 8px 16px;
+}
+
+.ld-button.btn-primary:hover, .ld-button.btn-primary:focus {
+    background: #003057;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ld-button.btn-primary:disabled {
+    background: #A5A5A5;
+    box-shadow: none;
+}
+
+.ld-button.btn-secondary {
+    color: #204D99;
+    border: 1px solid #204D99;
+    background: white;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    min-width: 75px;
+    min-height: 40px;
+    padding: 8px 16px;
+}
+
+.ld-button.btn-secondary:hover, .ld-button.btn-secondary:focus {
+    background: #395E7C;
+    color: #ffff;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ld-button.btn-secondary:disabled {
+    background: white;
+    color: #A5A5A5;
+    border: 1px solid #A5A5A5;
+    box-shadow: none;
+}

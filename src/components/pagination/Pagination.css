@@ -1,0 +1,24 @@
+.ld-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.ld-pagination .pagination .page-item .page-link {
+  border: 0;
+  color: #003057;
+  font-size: 14px;
+  text-decoration: none;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  margin: 0 3px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ld-pagination .pagination .page-item.active .page-link, .ld-pagination .pagination .page-item:hover .page-link, .ld-pagination .pagination .page-item:focus .page-link {
+  background: #003057;
+  color: #ffffff;
+}
+
