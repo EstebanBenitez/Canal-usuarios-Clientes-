@@ -1,0 +1,22 @@
+.ld-table-pagination .page-item.active .page-link,
+.ld-table-pagination .page-link:hover {
+    background: #003057;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.ld-table-pagination .page-link {
+    color: #003057;
+    padding: .375rem .75rem;
+    font-size: 15px;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 3px;
+    border-radius: 50% !important;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
